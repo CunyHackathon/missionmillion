@@ -12,6 +12,7 @@ function App() {
         <h2>Nike Air Jordan 1 “Chicago” </h2>
         <img src={sdd} />
         <h1> Hello please work</h1>
+        <p>can you see this</p>
     </div>
   );
 }
