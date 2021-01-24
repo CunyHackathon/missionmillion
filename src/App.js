@@ -31,7 +31,8 @@ handleVideoSelect = (video) => {
 
   render (){
     return (
-      <div className='background' style={{marginTop: '1em'}}>
+      <div className='background' >
+        <header className="App-header">
       <SearchBar handleFormSubmit={this.handleSubmit}/>
 
       <div className='ui grid' style={{color: "red"}}>
@@ -44,6 +45,7 @@ handleVideoSelect = (video) => {
               </div>
           </div>
       </div>
+      </header>
   </div>
     )
 
