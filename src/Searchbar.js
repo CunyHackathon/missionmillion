@@ -17,7 +17,7 @@ class Searchbar extends React.Component {
         return (
             <>
             
-            <h2  style={{textAlign:"center"}}>   <h1>FIRE REVIEWS </h1>  <img style={{width:'500px',justifyContent:'center'}} src='https://www.nicepng.com/png/full/969-9691607_cinch-gaming-logo-png-emblem.png' alt="youtube logo"></img></h2>
+            <h2  style={{textAlign:"center"}}>   <h1>ARBITER </h1>  <img style={{width:'500px',justifyContent:'center'}} src='https://www.nicepng.com/png/full/969-9691607_cinch-gaming-logo-png-emblem.png' alt="youtube logo"></img></h2>
             <div className='wrapper'>
                 <form onSubmit={"review",this.handleSubmit} className='ui form'>
                     <div className='input'>
