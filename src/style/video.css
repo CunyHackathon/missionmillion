@@ -1,10 +1,14 @@
 .video-item {
-    display: flex !important;
-    align-items: center !important;
-    cursor: pointer;
+  display: flex !important;
+  align-items: center !important;
+  margin: 30px;
+
+  cursor: pointer;
 }
 
 .video-item.item img {
-    max-width: 200px;
-    max-height: 250px ;
+  max-width: 400px;
+  margin: 30px;
+  align-items: center;
+  max-height: 250px;
 }

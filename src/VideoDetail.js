@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoDetail = ({ video }) => {
   if (!video) {
-    return <div>
+    return <div style={{textAlign:"center"}}>
        <h1>Enter search keyword to load...</h1>
        <br></br>
        <p style={{fontSize:'25px'}}>
@@ -15,13 +15,13 @@ const VideoDetail = ({ video }) => {
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
   console.log(typeof video);
   return (
-    <div>
-      <div className="ui embed">
-        <iframe src={videoSrc} allowFullScreen title="Video player" />
+    <div style={{textAlign:"center",  marginTop:"5%"}}>
+      <div  className="ui embed" >
+        <iframe  style={{  width:'1000px', height:'500px'}} src={videoSrc} allowFullScreen title="Video player" />
       </div>
       <div className="ui segment">
         <h4 className="ui header">{video.snippet.title}</h4>
-        <p>{video.snippet.description}</p>
+        <p style={{ margin: "20px 40px 40px 40px " }}>{video.snippet.description}</p>
       </div>
     </div>
   );

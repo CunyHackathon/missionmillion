@@ -1,17 +1,46 @@
-.App {
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  margin: auto;
+  background-color: #282c34;
+}
+
+.wrapper {
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  position: relative;
+
   text-align: center;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.wrapper .input {
+  width: 75%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .App-product {
-  height: 40vmin;
+  height: 20vmin;
+  margin: auto;
   pointer-events: none;
 }
 
-.product {
-  color: orange;
-}
-.bkground {
-  background-color: #282c34;
+.sec {
+  margin: auto;
+  min-height: 50vh;
+  width: 80%;
+  background-color: #202020;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,7 +50,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
