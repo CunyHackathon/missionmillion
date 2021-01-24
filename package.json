@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Mazensh88.github.io/CunyHackathon/missionmillion",
-  "name": "cunyhackathon",
+  "homepage": "http://CunyHackathon.github.io/missionmillion",
+  "name": "missionmillion",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
