@@ -2,9 +2,16 @@
   text-align: center;
 }
 
-.App-logo {
+.App-product {
   height: 40vmin;
   pointer-events: none;
+}
+
+.product {
+  color: orange;
+}
+.bkground {
+  background-color: #282c34;
 }
 
 @media (prefers-reduced-motion: no-preference) {
